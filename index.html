@@ -3,42 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>u Special</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>Coco the Cat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
-      height: 100vh;
-      background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
-      font-family: 'Pacifico', cursive;
-      overflow: hidden;
+      padding: 2rem;
     }
     h1 {
-      font-size: 4.5rem;
-      color: white;
-      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-      animation: fadeIn 2s ease-in-out, pulse 2s infinite ease-in-out;
+      color: #333;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: fadeInDown 1.2s ease-in-out;
     }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
+    img {
+      width: 90%;
+      max-width: 700px;
+      margin: 1rem auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.03);
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
       to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
     }
   </style>
 </head>
 <body>
-  <h1>ILU R.S  </h1>
+  <h1>Meet Coco 🐾</h1>
+  <img src="كوكو_web.jpg" alt="Coco the Cat">
+  <img src="كوكو2_web.jpg" alt="Coco the Panther 😼">
 </body>
 </html>
-
-
