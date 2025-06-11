@@ -12,18 +12,20 @@
       box-sizing: border-box;
     }
 
-    body {
-      font-family: 'Quicksand', sans-serif;
-      height: 100vh;
-      background: linear-gradient(-45deg, #fbc2eb, #a6c1ee, #fbc2eb, #a6c1ee);
-      background-size: 400% 400%;
-      animation: gradientBG 15s ease infinite;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 2rem;
-    }
+   body {
+  font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #fbc2eb, #a6c1ee, #fbc2eb, #a6c1ee);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
 
     @keyframes gradientBG {
       0% {background-position: 0% 50%;}
